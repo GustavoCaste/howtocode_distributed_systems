@@ -1,0 +1,70 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ISPServerApplication",
+            "request": "launch",
+            "mainClass": "br.com.everdev.nameresolutionispserver.ISPServerApplication",
+            "projectName": "isp-server-app"
+        },
+        {
+            "type": "java",
+            "name": "ValidacaoApplication",
+            "request": "launch",
+            "mainClass": "br.com.everdev.nameresolutionvalidacao.ValidacaoApplication",
+            "projectName": "validacao-app"
+        },
+        {
+            "type": "java",
+            "name": "PerfilApplication",
+            "request": "launch",
+            "mainClass": "br.com.everdev.nameresolutionperfil.PerfilApplication",
+            "projectName": "perfil-app"
+        },
+        {
+            "type": "java",
+            "name": "DNSServerApplication",
+            "request": "launch",
+            "mainClass": "br.com.everdev.nameresolutiondnsserver.DNSServerApplication",
+            "projectName": "dns-server-app"
+        },
+        {
+            "type": "java",
+            "name": "EurekaServerApplication",
+            "request": "launch",
+            "mainClass": "br.com.everdev.nameresolutioneurekaserver.EurekaServerApplication",
+            "projectName": "eureka-server-app"
+        },
+        {
+            "type": "java",
+            "name": "EurekaServerApplication",
+            "request": "launch",
+            "mainClass": "EurekaServerApplication",
+            "projectName": "eureka-server-app"
+        },
+        {
+            "type": "java",
+            "name": "ISPServerApplication",
+            "request": "launch",
+            "mainClass": "ISPServerApplication",
+            "projectName": "isp-server-app"
+        },
+        {
+            "type": "java",
+            "name": "DemoEurekaClientBApplication",
+            "request": "launch",
+            "mainClass": "br.com.everdev.demoeurekaclientb.DemoEurekaClientBApplication",
+            "projectName": "demo-eureka-client-b"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoEurekaClientAApplication<demo-eureka-client-a>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.everdev.websocketclienta.DemoEurekaClientAApplication",
+            "projectName": "demo-eureka-client-a",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

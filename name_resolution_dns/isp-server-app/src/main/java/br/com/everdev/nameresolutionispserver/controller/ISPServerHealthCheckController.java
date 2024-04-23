@@ -1,5 +1,4 @@
-package br.com.everdev.nameresolution.dnsserver.controller;
-
+package br.com.everdev.nameresolutionispserver.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
@@ -7,13 +6,14 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
 
 @RestController
-public class DNSServerHealthCheckController {
+public class ISPServerHealthCheckController {
 
     @Value("${spring.application.name}")
     private String appName;
 
     @GetMapping("/health")
     public String healthy() {
-        return "Sou o DNS Server e estou online: " + LocalDateTime.now();
+        return "Sou o ISP Server e estou online!" + LocalDateTime.now();
     }
+
 }
